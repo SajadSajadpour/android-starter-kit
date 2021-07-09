@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboard_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:background="@color/link_color"
+   >
+    <LinearLayout
+        android:id="@+id/text"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:textColor="@color/color_app_theme"
+            android:textSize="25sp" />
+        <com.food.iotsensor.ViewUtility.FontTextView
+            android:id="@+id/character"
+            typefaceName="vagroundedbt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_below="@+id/number"
+            android:clickable="false"
+
+            android:textColor="@color/color_app_theme"
+            android:textSize="8sp" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/keyboard_del"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/keyboard_del"
+        android:visibility="gone"
+        />
+
+    <com.food.iotsensor.ViewUtility.FontTextView
+        android:id="@+id/keyboard_cancel"
+        typefaceName="vagroundedbt"
+        android:layout_width="66dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:clickable="false"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:visibility="gone"
+        android:textColor="@color/color_app_theme"
+        android:textSize="12sp" />
+
+</RelativeLayout>

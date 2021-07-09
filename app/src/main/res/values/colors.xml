@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="ThemeBlue">#005fc5</color>
+    <color name="ThemePurple">#7839a0</color>
+    <color name="ThemeLime">#95c319</color>
+    <color name="ThemeRed">#d71919</color>
+    <color name="ThemeGreen">#2bad93</color>
+    <color name="ThemeGrey">#7a7a7a</color>
+    <color name="ThemeBlack">#000000</color>
+    <color name="OverlayBg">#ffffff</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorLightGrey">#eeeeee</color>
+    <color name="colorDarkGrey">#555555</color>
+    <color name="colorAlertRed">#ec5a5a</color>
+    <color name="colorLinkBtn">#6b958a</color>
+    <color name="colorGrey">#999999</color>
+    <color name="colorLightYellow">#f4ef86</color>
+    <color name="colorTransparent">#00000000</color>
+
+    <color name="colorThemeOrange">#FF7f27</color>
+    <color name="colorThemeYellow">#FFF200</color>
+
+    <color name="colorThemeRed">#FFBE1E2D</color>
+    <color name="colorThemeRedLight">#FFBD165C</color>
+
+    <color name="colorGrey1">#aaaaaa</color>
+    <color name="colorGrey2">#dddddd</color>
+    <color name="colorLightGrey_p2">#f2f2f2</color>
+    <color name="color_app_theme">#0db14b</color>
+    <color name="color_app_theme_old">#0083c9</color>
+    <color name="color_b3b3b3">#b3b3b3</color>
+    <color name="colorTheme2">@color/colorThemeYellow</color>
+    <color name="color_4f76bb">#4f76bb</color>
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_000000">#000000</color>
+    <color name="color_eaeeef">#EAEEEF</color>
+    <color name="color_3679bb">#3679bb</color>
+    <color name="color_fccd30">#fccd30</color>
+    <color name="color_fecc44">#fecc44</color>
+    <color name="color_ffc747">#ffc747</color>
+    <color name="color_764196">#764196</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_fd534d">#fd534d</color>
+    <color name="link_color">#EEEEEE</color>
+    <color name="color_e6e6e6">#e6e6e6</color>
+    <color name="gray_blank">#99000000</color>
+    <color name="color_pink">#F69584</color>
+    <color name="color_green">#5FBB46</color>
+    <color name="color_purple">#383A7F</color>
+    <color name="colorBlack3">#4d4d4d</color>
+    <color name="colorBlack2">#030303</color>
+    <color name="colorBlue3">#007aff</color>
+    <color name="colorBlue2">#1066b1</color>
+    <color name="colorBlue4">#053E83</color>
+    <color name="colorBlue5">#3060AC</color>
+    <color name="colorWhite50">#75ffffff</color>
+    <color name="color_3778BC">#3778BC</color>
+    <color name="colorBlue_p2">#3777bc</color>
+    <color name="colorBlue2_p2">#0082c9</color>
+    <color name="colorBlack_p2">#231f20</color>
+    <color name="colorRed_p2">#f1594b</color>
+    <color name="colorYellowPie_p2">#fccc30</color>
+    <color name="colorPurplePie_p2">#383a7f</color>
+    <color name="colorBluePie_p2">#0082c9</color>
+    <color name="colorGreenPie_p2">#5fbb46</color>
+    <color name="colorPeachPie_p2">#f69584</color>
+    <color name="color_2b2b2b">#2b2b2b</color>
+    <color name="color_444444">#444444</color>
+    <color name="color_dcddde">#dcddde</color>
+    <color name="color_be1e2d">#be1e2d</color>
+
+</resources>

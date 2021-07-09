@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/year_month_container"
+    android:background="@color/color_app_theme">
+
+    <ImageView
+        android:id="@+id/image_direction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:background="@mipmap/transaction_records_down"
+        android:gravity="center"/>
+    <com.food.iotsensor.ViewUtility.FontTextView
+        android:id="@+id/tv_content"
+        typefaceName="vagroundedbt"
+        android:text="month"
+        android:textColor="#ffffff"
+        android:layout_toRightOf="@+id/image_direction"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_height="50dp"
+        android:gravity="center|left"
+        android:paddingLeft="10dp"/>
+
+
+
+    <com.food.iotsensor.ViewUtility.FontTextView
+        android:id="@+id/tv_year_chart"
+        typefaceName="vagroundedbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/yellow_round_end_darkgrey_button"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/statement"
+        android:gravity="center"
+        android:textColor="@color/color_000000"
+        android:textSize="11sp" />
+</RelativeLayout>

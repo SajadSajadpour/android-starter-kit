@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">IOTSENSOR</string>
+
+
+
+    <string name="get_data_fail">Get Data Fail</string>
+    <string name="get_code_time_fail">Please wait another </string>
+    <string name="get_code_time_fail1">seconds in order to request OTP again </string>
+
+    <string name="info">Info</string>
+    <string name="oops_content1">In the meantime,check out the cool deals on our shopping site. </string>
+    <string name="ok">OK</string>
+    <string name="Click_here__more_info">Click here for more info on personal effect insurance </string>
+    <string name="confirm_delete">*Confirm delete payee? </string>
+    <string name="cancel">Cancel</string>
+    <string name="choose_status_or_loan">GOODKREDIT is the blblblbl special for blbllb. If you are interested in applying please click  IM INTERESTED to apply or select LOAN STATUS to check</string>
+    <string name="note_service_transfer_confirm_pin">Enter Your Payment Pin</string>
+    <string name="note_service_packet_select_amount">Payment Amount</string>
+    <string name="note_payment_proceed">PROCEED</string>
+    <string name="invalid_token_msg">Invalid Token Detected. </string>
+
+    <string name="oops_network_content">We could not display your selected content due to connection timed out.</string>
+    <string name="oops_network_second_content">Please try again</string>
+
+
+    <string name="login">LOGIN</string>
+    <string name="hello">Hey </string>
+
+    <string name="oops">Oops!!</string>
+    <string name="oops_content">We are updating our site to serve you better and the service you selected will be available soon. </string>
+
+    <string name="note_transaction_today">Today</string>
+
+    <string name="statement">STATEMENT</string>
+
+    <string name="continue_ok">Continue</string>
+
+    <string name="validation_fingerprint"> Please enter the verification code</string>
+
+
+    <string name="note">NOTE</string>
+    <string name="leave_this_page">Leave this page?</string>
+
+    <string name="rewards_note_connent">The value of Paydibs Rewards same as Cash Value whereas</string>
+
+    <string name="rewards_note_second_connent">1 Paydibs Rewards = 1MYR</string>
+
+    <string name="want_to_redeem">Yes, I want to redeem</string>
+    <string name="redeem_dialog_connent">Are you sure want to redeem\"</string>
+    <string name="redeem_dialog_second_connent">\"Cashback to Paydibs Rewards</string>
+
+    <string name="no_sensor_dialog_message">Not support fingerprint authentication </string>
+    <string name="error_sensor_dialog_message">Not support fingerprint authentication </string>
+    <string name="no_fingerprint_enrolled_dialog_message">Fingerprint authentication turned off </string>
+
+    <string name="ErrorCanceled_warning">Sensor is not available at the moment </string>
+    <string name="ErrorHwUnavailable_warning">Hardware is not available</string>
+    <string name="ErrorLockout_warning">Authentication canceled,Locked due to too many attempts</string>
+    <string name="ErrorNoSpace_warning">The authentication cannot be completed because there is not enough memory</string>
+    <string name="ErrorTimeout_warning">When request is running too long, an error status is returned.</string>
+    <string name="ErrorUnableToProcess_warning">An error status is returned when the sensor cannot process the current image.</string>
+    <string name="error_sensor_dialog_init_fail">Fingerprint initialization failed</string>
+    <string name="validation_fingerprint_fail">Fingerprint verification failed</string>
+
+
+    <string-array name="english_week_string_array">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+</resources>

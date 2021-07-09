@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:layout_marginLeft="@dimen/dialog_padding"
+        android:layout_marginRight="@dimen/dialog_padding"
+        android:background="@drawable/add_lable_dialog_shape"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/china"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/connent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                 android:textColor="@color/color_000000"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/link" />
+
+        <LinearLayout
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+
+                android:id="@+id/cancel_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="13dp"
+                android:text="Not Interested"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:background="@color/color_app_theme"
+                android:textSize="10sp" />
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+            <TextView
+                android:id="@+id/ok_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/cancel_button"
+                android:layout_centerHorizontal="true"
+                android:textAllCaps="true"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="13dp"
+                android:text="Purchase Insurance"
+                android:textColor="@color/white"
+                android:background="@color/color_app_theme"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <!--Click Here Hyperlink-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/click_here"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Click_here__more_info"
+                android:textSize="11dp"
+                android:clickable="true"
+                android:layout_marginBottom="5dp"
+                android:focusable="true"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+
